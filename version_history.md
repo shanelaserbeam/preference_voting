@@ -6,7 +6,9 @@ based on different counting methodology
   -Implemented randomly generated ballots based on number of candidates (up to 26)<br>
   -Implemented randomly generated vote counts for each ballot, allowing for minimum votes and maximum votes per ballot<br>
   -Implemented a method to print the preference schedule (non-formated)<br>
-  -Implemented a method to report the pluarlity winner with the ability to report ties<br>
+  -Implemented a method to report the plurality winner with the ability to report ties<br>
 
 *version 0.0.2:*<br>
-  -TBD
+  -added some documentation including doctext <br>
+  -changed get_plurality_winner to return winners list<br>
+  -created static methods to break ties and report winners<br>
